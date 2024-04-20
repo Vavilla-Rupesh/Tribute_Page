@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(0deg, rgba(255,255,0,1) 0%, rgba(255,165,0,1) 100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    width: 100%;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    display: flex;
+    padding-top:20px;
+    justify-content: space-around;
+    width: 100%;
+    gap: 150px;
+}
+a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:ghostwhite;
+}
+.matter{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 2;
+    color:green;
+}
+.lmoves,.rmoves{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+    padding: 20px;
+}
+.rmoves{
+    flex-direction: row-reverse;
+}
+.des{
+    text-align: center;
+    line-height: 2;
+    color: darkgreen;
+}
+.imgjutsu{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.highlight{
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:ghostwhite;
+}
+h2{
+    grid-column: span 4;
+    text-align: center;
+}
+#achievements {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 2;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#team7{
+    display: grid;
+    grid-template-columns: 3;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.sasuke,.sakura,.kakashi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#home{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+    color:ghostwhite;
+}
